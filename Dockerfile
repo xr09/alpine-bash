@@ -8,6 +8,6 @@ ENV GROUP_NAME=script
 RUN set -eux; \
   apk add --no-cache coreutils curl jq; \
   addgroup -g ${GROUP_ID} ${GROUP_NAME}; \
-  adduser -DH -u ${USER_ID} -G ${GROUP_NAME} -s /usr/local/bin/bash ${USER_NAME}
+  adduser -D -u ${USER_ID} -G ${GROUP_NAME} -s /usr/local/bin/bash ${USER_NAME}
 
 USER ${USER_NAME}
