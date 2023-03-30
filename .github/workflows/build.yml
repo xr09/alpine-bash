@@ -42,5 +42,6 @@ jobs:
         pull: true
         cache-from: type=registry,ref=xr09/alpine-bash:latest
         cache-to: type=inline
+        outputs: type=image,oci-mediatypes=true,push=true
         tags: |
           xr09/alpine-bash:latest
