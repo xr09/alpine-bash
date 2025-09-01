@@ -4,7 +4,7 @@ Docker image with bash, curl and jq
 
 Based on upstream bash image (built with Alpine)
 
-Built weekly, uploaded to [xr09/alpine-bash](https://hub.docker.com/r/xr09/alpine-bash) on Docker Hub
+Built monthly, uploaded to [xr09/alpine-bash](https://hub.docker.com/r/xr09/alpine-bash) on Docker Hub
 
 Non-root privileges, the user `script` is set by default
 
